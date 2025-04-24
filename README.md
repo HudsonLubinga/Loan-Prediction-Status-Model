@@ -2,6 +2,8 @@
 
 ## 🔍 Project Overview
 
+In modern financial services, automated systems for assessing loan applications are essential. 
+
 This project presents a **Machine Learning-based Loan Status Prediction System** built to assist financial institutions in evaluating the likelihood of a loan being approved. Using demographic and financial attributes of applicants, the model predicts whether a loan will be approved (`Y`) or rejected (`N`).
 
 It includes:
@@ -88,9 +90,10 @@ An API was built with **FastAPI** to serve predictions:
   "x5": 1.0         // Credit_History
 }
 
+---
+
 ##**Key Takeaways**
 Credit History is the most significant factor for loan approval. Education and marital status influence approval rates and loan amounts. The SVM model proved effective and was deployed using FastAPI.
 
 ##**Conclusion**
 This project showcases a robust end-to-end machine learning pipeline and API deployment. It reflects the real-world application of data science in the FinTech domain, suitable for operational deployment or academic presentation.
-

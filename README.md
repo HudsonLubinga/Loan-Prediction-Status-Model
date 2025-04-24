@@ -73,6 +73,12 @@ Three classification algorithms were tested using `GridSearchCV` for hyperparame
 Best parameters for SVM: `C=0.01`, `kernel='linear'`.
 
 ---
+## Key Takeaways
+Credit History is the most significant factor for loan approval. Education and marital status influence approval rates and loan amounts. The SVM model proved effective and was deployed using FastAPI.
+
+## Conclusion
+This project showcases a robust end-to-end machine learning pipeline and API deployment. It reflects the real-world application of data science in the FinTech domain, suitable for operational deployment or academic presentation.
+
 
 ## 🛠️ FastAPI Deployment
 
@@ -89,11 +95,3 @@ An API was built with **FastAPI** to serve predictions:
   "x4": 128.0,      // LoanAmount
   "x5": 1.0         // Credit_History
 }
-
----
-
-##**Key Takeaways**
-Credit History is the most significant factor for loan approval. Education and marital status influence approval rates and loan amounts. The SVM model proved effective and was deployed using FastAPI.
-
-##**Conclusion**
-This project showcases a robust end-to-end machine learning pipeline and API deployment. It reflects the real-world application of data science in the FinTech domain, suitable for operational deployment or academic presentation.
